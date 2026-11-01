@@ -2,13 +2,12 @@
 
 **Live-Demo:** https://endritsrmx.github.io/polsterwerkstatt-duernten-demo/
 
-Diese Version ist eine Vorschau. Oben auf der Seite steht ein Hinweisbalken «Demo-Vorschau», die Bilder sind KI-generiert und die Adresse ist ein Platzhalter. Vor dem Livegang entfernen:
+Diese Version ist eine Vorschau. Die Bilder sind KI-generiert und die Adresse ist ein Platzhalter. Vor dem Livegang entfernen:
 
-1. Den `<div>` mit dem Text «Demo-Vorschau» ganz oben in `index.html` löschen.
-2. Platzhalter in `impressum.html` und `datenschutz.html` mit echten Angaben ersetzen (Inhaber, Strasse, Rechtsform, UID, Bildnachweis).
-3. In `index.html` die Adresse `Musterstrasse 00` ersetzen.
-4. Die Sektion `#stimmen` bleibt vorerst auf `hidden`, bis echte Kundenstimmen vorliegen.
-5. Vorher/Nachher-Bilder durch echte Kundenarbeiten ersetzen, sonst bleibt der Bildnachweis «Beispielbilder, KI-generiert».
+1. Platzhalter in `impressum.html` und `datenschutz.html` mit echten Angaben ersetzen (Inhaber, Strasse, Rechtsform, UID, Bildnachweis).
+2. In `index.html` die Adresse `Musterstrasse 00` ersetzen.
+3. Die Sektion `#stimmen` bleibt vorerst auf `hidden`, bis echte Kundenstimmen vorliegen.
+4. Vorher/Nachher-Bilder durch echte Kundenarbeiten ersetzen, sonst bleibt der Bildnachweis «Beispielbilder, KI-generiert».
 
 ---
 Statische Onepage, kein Build nötig. Ordner auf den Webserver laden, fertig. Für GitHub Pages: Branch `main`, Ordner `/ (root)` — die Datei `.nojekyll` ist bereits dabei.
